@@ -1,5 +1,5 @@
 # Pathfind Solution Details 
-[Tests Results](#tests) | [Tests Source Code](../tests/pathfind.test.js) | [Back To Main](../README.md) | [Challenge Source Code](./pathfind.js) | [Comments](../README.md/#comments-section)
+[Back To Main](../README.md) | [Tests Results](#tests) | [Tests Source Code](../tests/pathfind.test.js) | [Challenge Source Code](./pathfind.js) | [Comments](../README.md/#comments-section)
 
 <hr />
 
@@ -106,4 +106,4 @@ If the `exploreNeighbors` function returns `-1`, the path was not found and the 
 
 ![Tests](../images/jest_test.PNG)
 
-[Back To Main](../README.md) | [Tests Source Code](../tests/pathfind.test.js) | [Top](#pathfind-solution-details) | [Challenge Source Code](./pathfind.js) | [Comments](../README.md/#comments-section) 
+[Back To Main](../README.md) | [Top](#pathfind-solution-details) | [Tests Source Code](../tests/pathfind.test.js) | [Challenge Source Code](./pathfind.js) | [Comments](../README.md/#comments-section) 
