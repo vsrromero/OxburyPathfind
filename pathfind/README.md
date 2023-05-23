@@ -1,5 +1,5 @@
 # Pathfind Solution Details 
-[Tests Results](#tests) | [Tests Source Code](./tests/pathfind.test.js) | [Back To Main](../README.md) | [Challenge Source](./pathfind.js) | [Comments](../README.md/#comments-section)
+[Tests Results](#tests) | [Tests Source Code](../tests/pathfind.test.js) | [Back To Main](../README.md) | [Challenge Source](./pathfind.js) | [Comments](../README.md/#comments-section)
 
 <hr />
 
