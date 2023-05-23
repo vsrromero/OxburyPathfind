@@ -106,4 +106,4 @@ If the `exploreNeighbors` function returns `-1`, the path was not found and the 
 
 ![Tests](../images/jest_test.PNG)
 
-[Back To Main](../README.md) | [Tests Source Code](./tests/pathfind.test.js) | [Top](#pathfind-solution-details) | [Challenge Source](./pathfind.js) | [Comments](../README.md/#comments-section) 
+[Back To Main](../README.md) | [Tests Source Code](../tests/pathfind.test.js) | [Top](#pathfind-solution-details) | [Challenge Source](./pathfind.js) | [Comments](../README.md/#comments-section) 
