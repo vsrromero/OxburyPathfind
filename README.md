@@ -1,5 +1,5 @@
 # Oxbury Pathfind
-[Solution Details](./pathfind/README.md) | [Tests Results](./pathfind/README.md#tests) | [Tests Source Code](./tests/pathfind.test.js) | [Challenge Source](./pathfind/pathfind.js) | [Comments](#comments-section)
+[Solution Details](./pathfind/README.md) | [Tests Results](./pathfind/README.md#tests) | [Tests Source Code](./tests/pathfind.test.js) | [Challenge Source Code](./pathfind/pathfind.js) | [Comments](#comments-section)
 
 Imagine representing a grid-shaped game map as a 2-dimensional array. Each value of this array is
 boolean `true` or `false` representing whether that part of the map is passable (a floor) or blocked
@@ -48,4 +48,4 @@ Additionally, I would create a webpage using PHP, HTML, CSS, and JavaScript, sho
 
 
 
-[Top](#oxbury-pathfind) | [Solution Details](./pathfind/README.md) | [Tests Results](./pathfind/README.md#tests) | [Tests Source Code](./tests/pathfind.test.js) | [Challenge Source](./pathfind/pathfind.js)
+[Top](#oxbury-pathfind) | [Solution Details](./pathfind/README.md) | [Tests Results](./pathfind/README.md#tests) | [Tests Source Code](./tests/pathfind.test.js) | [Challenge Source Code](./pathfind/pathfind.js)
