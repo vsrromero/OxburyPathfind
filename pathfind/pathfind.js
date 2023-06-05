@@ -11,6 +11,11 @@ function pathfind(A, P, Q) {
     const rows = A.length;
     const cols = A[0].length;
 
+    // Check if the starting point is a valid cell
+    if (!A[P[0]][P[1]]) {
+        return -1; // Invalid starting point
+    }
+
     // Keep track of visited cells
     const queue = [];
 
