@@ -11,11 +11,6 @@ function pathfind(A, P, Q) {
     const rows = A.length;
     const cols = A[0].length;
 
-    // Check if the starting point is a valid cell
-    if (!A[P[0]][P[1]]) {
-        return -1; // Invalid starting point
-    }
-
     // Keep track of visited cells
     const queue = [];
 
@@ -23,10 +18,7 @@ function pathfind(A, P, Q) {
     for (let i = 0; i < rows; i++) {
         visited[i] = new Array(cols).fill(false);
     }
-
-    // Define the possible directions to move
-    const directions = [[-1, 0], [1, 0], [0, -1], [0, 1]];
-
+    
     /**
      * Checks if a given cell is valid and not visited.
      *
@@ -37,6 +29,16 @@ function pathfind(A, P, Q) {
     const isValid = (row, col) => {
         return row >= 0 && row < rows && col >= 0 && col < cols && A[row][col] && !visited[row][col];
     };
+
+    // Check if the starting point is a valid cell
+    if (!isValid(P[0], P[1])) {
+        return -1; // Invalid starting point
+    }
+
+
+    // Define the possible directions to move
+    const directions = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+
 
     /**
      * Explores the neighbors of a given cell and updates the visited cells.
